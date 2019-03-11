@@ -7,11 +7,11 @@
 #include <ESP8266WiFi.h>
 
 // Replace with your SSID and Password
-const char* ssid     = "TheHub";
-const char* password = "sigmaalphaepsilon";
+const char* ssid     = "SSID";
+const char* password = "PASSWORD";
 
 // Replace with your unique IFTTT URL resource
-const char* resource = "/trigger/201b_front_door/with/key/cY-j4fpacNXDZqFj-rUBCq";
+const char* resource = "/trigger/<SOMETHING>/with/key/<ENTER YOUR KEY>";
 
 // How your resource variable should look like, but with your own API KEY (that API KEY below is just an example):
 //const char* resource = "/trigger/button_pressed/with/key/nAZjOphL3d-ZO4N3k64-1A7gTlNSrxMJdmqy";
